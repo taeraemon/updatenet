@@ -1,3 +1,62 @@
+README from tykim
+```
+
+
+1. Dataset Structure
+
+LaSOT
+    - airplane/
+        - airplane-1/
+            -img/
+                -00000001.jpg
+                -00000002.jpg
+                ...
+            -full_occlusion.txt
+            -groundtruth.txt
+            -nlp.txt
+            -out_of_view.txt
+        - airplane-2/
+            ...
+        ...
+    - boat
+        ...
+    ...
+
+LSOTB-TIR
+    -Evaluation Dataset/
+    -Evaluation Result/
+    -Training Dataset/
+        -LSOTB-TIR_TrainingData/
+            -Annotations/
+                -TIR_training_001/
+                    -bear_001/
+                        -00000001.xml
+                        -00000002.xml
+                        ...
+                    -bear_002/
+                    ...
+                ~
+                -TIR_training_004/
+            -TrainingData/
+                -TIR_training_001/
+                    -bear_001/
+                        -00000001.jpg
+                        -00000002.jpg
+                        ...
+                    -bear_002/
+                    ...
+                ~
+                -TIR_training_004/
+    -LSOTB-TIR.json
+
+
+```
+
+
+
+
+
+
 # Learning the Model Update for Siamese Trackers
 
 The paper will appear in ICCV 2019. 
